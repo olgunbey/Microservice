@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "ClI2cI4eZWxJT7jj8CtwVuCal0C8v5iDNSJqb92Lm+g=",
+  "Source": "FreeCourse.Services.Photo",
+  "BasePath": "_content/FreeCourse.Services.Photo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FreeCourse.Services.Photo\\wwwroot",
+      "Source": "FreeCourse.Services.Photo",
+      "ContentRoot": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\MicroserviceProje\\UdemyMicroservices\\Services\\Photos\\FreeCourse.Services.Photo\\wwwroot\\",
+      "BasePath": "_content/FreeCourse.Services.Photo",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

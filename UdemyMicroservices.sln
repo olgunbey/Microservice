@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B4F8E555-AC97-40B1-990E-9E52DFBBBD72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{5D976E8C-4C03-4E5F-AB5D-153EF89A96BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeCourse.Services.Catalog", "Services\Catalog\FreeCourse.Services.Catalog\FreeCourse.Services.Catalog.csproj", "{55CC3C2A-0222-47B8-9BDD-2FF90B6FC115}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{30FB2291-4491-4A50-B9BF-6EC68991B4CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeCourse.Shared", "Shared\FreeCourse.Shared\FreeCourse.Shared.csproj", "{620C1D73-5109-4665-9B59-309ADA0B8849}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{0EEE0717-3A89-4743-9F51-3738341A5235}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeCourse.IdentityServer", "IdentityServer\FreeCourse.IdentityServer\FreeCourse.IdentityServer.csproj", "{A51B4256-CEC5-4031-AA57-75EE2A7A8D35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Photos", "Photos", "{5F8E864A-CB9D-410E-8529-C2109BFA3B26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeCourse.Services.Photo", "Services\Photos\FreeCourse.Services.Photo\FreeCourse.Services.Photo.csproj", "{7DF62972-4C1D-4242-B3F2-62E122F5C480}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55CC3C2A-0222-47B8-9BDD-2FF90B6FC115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55CC3C2A-0222-47B8-9BDD-2FF90B6FC115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55CC3C2A-0222-47B8-9BDD-2FF90B6FC115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55CC3C2A-0222-47B8-9BDD-2FF90B6FC115}.Release|Any CPU.Build.0 = Release|Any CPU
+		{620C1D73-5109-4665-9B59-309ADA0B8849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{620C1D73-5109-4665-9B59-309ADA0B8849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{620C1D73-5109-4665-9B59-309ADA0B8849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{620C1D73-5109-4665-9B59-309ADA0B8849}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A51B4256-CEC5-4031-AA57-75EE2A7A8D35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A51B4256-CEC5-4031-AA57-75EE2A7A8D35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A51B4256-CEC5-4031-AA57-75EE2A7A8D35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A51B4256-CEC5-4031-AA57-75EE2A7A8D35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DF62972-4C1D-4242-B3F2-62E122F5C480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DF62972-4C1D-4242-B3F2-62E122F5C480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DF62972-4C1D-4242-B3F2-62E122F5C480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DF62972-4C1D-4242-B3F2-62E122F5C480}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5D976E8C-4C03-4E5F-AB5D-153EF89A96BF} = {B4F8E555-AC97-40B1-990E-9E52DFBBBD72}
+		{55CC3C2A-0222-47B8-9BDD-2FF90B6FC115} = {5D976E8C-4C03-4E5F-AB5D-153EF89A96BF}
+		{620C1D73-5109-4665-9B59-309ADA0B8849} = {30FB2291-4491-4A50-B9BF-6EC68991B4CC}
+		{A51B4256-CEC5-4031-AA57-75EE2A7A8D35} = {0EEE0717-3A89-4743-9F51-3738341A5235}
+		{5F8E864A-CB9D-410E-8529-C2109BFA3B26} = {B4F8E555-AC97-40B1-990E-9E52DFBBBD72}
+		{7DF62972-4C1D-4242-B3F2-62E122F5C480} = {5F8E864A-CB9D-410E-8529-C2109BFA3B26}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBB23B6B-5478-4AA9-B2F1-BDD2EB43A99D}
+	EndGlobalSection
+EndGlobal
