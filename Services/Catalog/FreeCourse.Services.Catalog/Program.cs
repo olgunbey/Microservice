@@ -1,5 +1,7 @@
+using FreeCourse.Services.Catalog.Requirements;
 using FreeCourse.Services.Catalog.Services;
 using FreeCourse.Services.Catalog.Settings;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.Extensions.Options;
 
@@ -23,6 +25,8 @@ builder.Services.AddAuthentication("Bearer").AddJwtBearer(options =>
     options.Authority = "https://localhost:7011";
     options.Audience = "resource_photostock";
 });
+builder.Services.AddAuthorization(y => y.AddPolicy("Policy1", y => y.AddRequirements(new DenemeRequirement())));
+builder.Services.AddSingleton<IAuthorizationHandler, DenemeHandler>();
 builder.Services.AddSingleton<IDatabaseSetting>(sp =>
 {
     return sp.GetRequiredService<IOptions<DatabaseSetting>>().Value;

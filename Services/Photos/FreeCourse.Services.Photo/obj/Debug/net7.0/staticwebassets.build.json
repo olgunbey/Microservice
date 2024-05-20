@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ClI2cI4eZWxJT7jj8CtwVuCal0C8v5iDNSJqb92Lm+g=",
+  "Hash": "tbooUj2yndPvWCDzcTAkCAf0yiG9ckoAFvBEz4CCk5A=",
   "Source": "FreeCourse.Services.Photo",
   "BasePath": "_content/FreeCourse.Services.Photo",
   "Mode": "Default",
@@ -15,5 +15,23 @@
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\MicroserviceProje\\UdemyMicroservices\\Services\\Photos\\FreeCourse.Services.Photo\\wwwroot\\photos\\WhatsApp Görsel 2024-03-20 saat 00.38.25_471bd898.jpg",
+      "SourceId": "FreeCourse.Services.Photo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\MicroserviceProje\\UdemyMicroservices\\Services\\Photos\\FreeCourse.Services.Photo\\wwwroot\\",
+      "BasePath": "_content/FreeCourse.Services.Photo",
+      "RelativePath": "photos/WhatsApp Görsel 2024-03-20 saat 00.38.25_471bd898.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photos\\WhatsApp Görsel 2024-03-20 saat 00.38.25_471bd898.jpg"
+    }
+  ]
 }
