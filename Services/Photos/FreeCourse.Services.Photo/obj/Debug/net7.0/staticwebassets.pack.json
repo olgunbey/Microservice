@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\MicroserviceProje\\UdemyMicroservices\\Services\\Photos\\FreeCourse.Services.Photo\\wwwroot\\photos\\WhatsApp Görsel 2024-03-20 saat 00.38.25_471bd898.jpg",
+      "PackagePath": "staticwebassets\\photos\\WhatsApp Görsel 2024-03-20 saat 00.38.25_471bd898.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.FreeCourse.Services.Photo.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.FreeCourse.Services.Photo.props",
+      "PackagePath": "build\\FreeCourse.Services.Photo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.FreeCourse.Services.Photo.props",
+      "PackagePath": "buildMultiTargeting\\FreeCourse.Services.Photo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.FreeCourse.Services.Photo.props",
+      "PackagePath": "buildTransitive\\FreeCourse.Services.Photo.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

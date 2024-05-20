@@ -2,6 +2,7 @@
 using FreeCourse.Services.Catalog.Models;
 using FreeCourse.Services.Catalog.Services;
 using FreeCourse.Shared.ControllerBases;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -23,6 +24,7 @@ namespace FreeCourse.Services.Catalog.Controllers
             return CreateActionResultInstance(categories);
         }
         [HttpGet]
+        [Authorize(Policy ="Policy1")]
         public async Task<IActionResult> GetById([FromHeader]string id)
         {
             var categories = await categoryService.GetByIdAsync(id);

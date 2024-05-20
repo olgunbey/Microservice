@@ -42,5 +42,18 @@ namespace FreeCourse.Services.Photo.Controllers
 
             return CreateActionResultInstance<NoContent>(ResponseDto<NoContent>.Success(204));
         }
+
+        [HttpPost]
+        public IActionResult DenemeApi([FromBody] SignupDto signup)
+        {
+            return Ok();
+        }
+    }
+    public class SignupDto
+    {
+        public string Email { get; set; }
+        public string Password { get; set; }
+        public string UserName { get; set; }
+        public string City { get; set; }
     }
 }
